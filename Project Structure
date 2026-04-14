@@ -1,0 +1,37 @@
+ fraud-dashboard/
+ │
+ ├─ data/                     
+│   
+└─ creditcard.csv
+ │
+ ├─ model/                    
+│   
+│   
+├─ train_model.py
+ └─ fraud_model.joblib
+ │
+ ├─ api/                      
+│   
+│   
+├─ main.py
+ └─ requirements.txt
+ │
+ ├─ dashboard/                
+│   
+│   
+├─ app.py
+ └─ requirements.txt
+ │
+ ├─ docker/
+ │   
+├─ Dockerfile.api
+ │   
+│   
+# sample CSVs and synthetic stream generator
+ # training script & saved model
+ # FastAPI inference service
+ # Streamlit UI
+ ├─ Dockerfile.dashboard
+ └─ docker-compose.yml
+ │
+ └─ README.md
